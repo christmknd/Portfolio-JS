@@ -2,7 +2,7 @@ import './App.css';
 import Nav from './components/layout/Nav';
 import Footer from "./components/layout/Footer"
 
-import Chiffres from "./components/home/Chiffres.js"
+import Chiffres from "./components/home/Chiffres.js";
 import Competences from "./components/home/Competences";
 import Experience from "./components/home/Experience";
 import Expertise from "./components/home/Expertise";
