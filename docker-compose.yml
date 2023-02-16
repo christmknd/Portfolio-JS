@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  frontend:
+    container_name: portfolio_front
+    image: portfolio_react
+    build:
+      context: front/
+    ports: 
+      - ${PORT_FRONTEND}:3000
+    volumes:
+      - ./front/src:/app/src
+    command: npm start
