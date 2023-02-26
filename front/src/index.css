@@ -12,9 +12,10 @@ code {
     monospace;
 }
 
-h1, h2, h3{
+h1,h2,h3{
   text-align: center;
 }
+
 
 
 nav {
@@ -40,6 +41,10 @@ nav li a {
 
 nav li a:hover {
   color: whitesmoke;
+}
+
+p {
+  text-align: justify;
 }
 
 
