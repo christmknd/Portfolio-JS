@@ -1,8 +1,0 @@
-vendor
-.vscode
-.env.example
-coverage
-.DS_Store
-dist
-.git*
-README.md
