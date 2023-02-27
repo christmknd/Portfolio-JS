@@ -18,4 +18,4 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_JS_140A1 }}'
           channelId: live
           projectId: portfolio-js-140a1
-          entryPoint: /front
+          entryPoint: ./front
