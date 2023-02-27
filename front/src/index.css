@@ -12,9 +12,10 @@ code {
     monospace;
 }
 
-h1, h2, h3{
+h1,h2,h3{
   text-align: center;
 }
+
 
 
 nav {
@@ -22,7 +23,20 @@ nav {
   background-color: black;
 }
 
+footer {
+  overflow: hidden;
+  background-color: black;
+}
+
 nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+footer ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -37,9 +51,19 @@ nav li a {
   color: goldenrod;
 }
 
+footer li {
+  text-decoration: none;
+  padding: 5px;
+  color: goldenrod;
+}
+
 
 nav li a:hover {
   color: whitesmoke;
+}
+
+p {
+  text-align: justify;
 }
 
 
